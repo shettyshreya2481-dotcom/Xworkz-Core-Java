@@ -1,11 +1,14 @@
-class Coffee{
-String brand;
-double price;
-public Coffee(){
-System.out.println("Delightful Coffee");
-}
+class Coffee {
 
-public Coffee(String brand,double price){
-this.brand=brand;
-this.price=price;
-}}
+    String coffeeType;
+    int price;
+
+    Coffee(String coffeeType, int price) {
+        this.coffeeType = coffeeType;
+        this.price = price;
+    }
+
+    void display() {
+        System.out.println(coffeeType + " Price: " + price);
+    }
+}
