@@ -1,0 +1,16 @@
+class  Consumer{
+String consumerName;
+int billId;
+String dateOfIssue;
+
+Consumer(String consumerName,int billId,String dateOfIssue){
+this.consumerName=consumerName;
+this.billId=billId;
+this.dateOfIssue=dateOfIssue;
+}
+
+void getDetails(){
+System.out.println("Consumer Name:"+consumerName);
+System.out.println("Bill Id"+billId);
+System.out.println("Date Of Issue:"+dateOfIssue);
+}}
